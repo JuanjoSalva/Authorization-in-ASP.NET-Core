@@ -5,13 +5,13 @@ por ejemplo, basado en roles.
 
 En nuestra aplicación no spide login:
 
-![index](E:\JUANJO\CURSO2020\MODULO3_NET\20486D\Allfiles\Mod11\Democode\02_AuthorizeExample_begin\IdentityExample\img\index.PNG)
+![index](https://github.com/JuanjoSalva/Authorization-in-ASP.NET-Core/blob/master/IdentityExample/img/index.PNG)
 
 
 
 Podemos crear la cuenta:
 
-![register](E:\JUANJO\CURSO2020\MODULO3_NET\20486D\Allfiles\Mod11\Democode\02_AuthorizeExample_begin\IdentityExample\img\register.PNG)
+![register](https://github.com/JuanjoSalva/Authorization-in-ASP.NET-Core/blob/master/IdentityExample/img/register.PNG)
 
 
 
@@ -23,7 +23,7 @@ Si no nos logamos e intentamnos entrar en cursos,  nos deja entrar porque en el 
             return View(_studentContext.Courses.ToList());
         }
 
-![cursos](E:\JUANJO\CURSO2020\MODULO3_NET\20486D\Allfiles\Mod11\Democode\02_AuthorizeExample_begin\IdentityExample\img\cursos.PNG)
+![cursos](https://github.com/JuanjoSalva/Authorization-in-ASP.NET-Core/blob/master/IdentityExample/img/cursos.PNG)
 
 
 
@@ -37,10 +37,10 @@ Sin embrago, si intentamos entrar en el Portal del Estudiante, vemos que tenemos
 
 Y no nos deja entrar, llevandonos a la página de login:
 
-![login](E:\JUANJO\CURSO2020\MODULO3_NET\20486D\Allfiles\Mod11\Democode\02_AuthorizeExample_begin\IdentityExample\img\login.PNG)
+![login](https://github.com/JuanjoSalva/Authorization-in-ASP.NET-Core/blob/master/IdentityExample/img/login.PNG)
 
 
 
 Pero si estanos logados y entramos en el portal del estudiantes, nos deja entrar
 
-![welcome](E:\JUANJO\CURSO2020\MODULO3_NET\20486D\Allfiles\Mod11\Democode\02_AuthorizeExample_begin\IdentityExample\img\welcome.PNG)
+![welcome](https://github.com/JuanjoSalva/Authorization-in-ASP.NET-Core/blob/master/IdentityExample/img/welcome.PNG)
